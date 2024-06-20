@@ -602,6 +602,19 @@ Scheme
 				"weight"		"0"
 			}
 		}
+		"HudFontMediumShadow"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"24"
+				"tall_lodef"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 
 
 		"DefaultVerySmall"

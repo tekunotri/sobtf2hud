@@ -37,10 +37,16 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
+		"xpos"	"c-100"
 		"ypos"	"0"
-		"wide"	"f0"
+		"wide"	"200"
 		"tall"	"160"
+		
+		"blue_active_xpos"			"16"
+		"blue_active_xpos_minmode"	"55"
+	
+		"red_active_xpos"			"106"
+		"red_active_xpos_minmode"	"105"
 	}	
 	HudItemEffectMeter
 	{
@@ -189,8 +195,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"	//c-126
-		"ypos"		"300"	//300
+		"ypos"		"280"	//300
 		"wide"	 	"252"
+		"tall"	 	"35"
 		"priority"	"35"
 	}
 	
@@ -1008,10 +1015,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"300"
-		"wide"					"270"
-		"tall"					"100"
+		"xpos"					"r200"
+		"ypos"					"rs1"
+		"zpos"					"10"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 	HudTFCrosshair
 	{
