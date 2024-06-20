@@ -4,17 +4,13 @@ by Russell "Essobie" O'Henly
 
 INSTALLATION
 ============
-1) Extract the folder into the following directory:
+1) Put the "sobtf2hud-main" folder into the following directory:
 
     ...\Steam\steamapps\common\team fortress 2\tf\custom
 
 This will place the modified .res files into their correct directories.
 
-2) In Team Fortress 2 go to Options>Multiplayer>Advanced and check "Enable Minimal HUD".
-
-NOT DOING THIS STEP WILL MEAN YOUR HUD MAY NOT LOOK RIGHT. IF YOU SET THIS SETTING IN A CUSTOM CONFIGURATION BY ALTERING THE cl_hud_minmode CVAR YOU WILL NEED TO SET THE CVAR TO A VALUE OF 1.
-
-3) Go play.
+2) Go play.
 
 
 NOTE TO NON-16:9 ASPECT RATIO GAMERS
@@ -59,6 +55,7 @@ New in this version:
 
 History
 =======
+1.5.0 	Updated for 2024. welcome back sobtf2hud!
 1.4.6   Updated for the 20091217 update (Soldier/Demoman)
         Added all new values in Clientscheme.res (mostly having to do with the crafting inventory ui).
         Added Cdamageaccountpanel, Screenshotpanel elements to hudlayout.res and removed Hudwarcount.
